@@ -90,4 +90,4 @@ const maskNumber = (num) => {
     
     return str.slice(0, 2) + "*".repeat(str.length - 4) + str.slice(-2);
 };
-console.log(maskNumber(938263826482))
+console.log(maskNumber(9876543210))
